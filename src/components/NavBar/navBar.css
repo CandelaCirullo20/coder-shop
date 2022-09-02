@@ -1,0 +1,14 @@
+.navbar {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(0,255,136,1) 100%, rgba(252,176,69,1) 100%);
+    width: 100%;
+  }
+  
+  .logo{
+    text-shadow: 8px 6px 9px rgba(0,0,0,1);
+    margin: 0;
+  }
+  
+  .ul{
+    text-shadow: 8px 6px 16px rgba(0,0,0,1);
+  }
