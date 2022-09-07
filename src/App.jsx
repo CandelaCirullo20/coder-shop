@@ -1,16 +1,15 @@
 import "./App.css";
-import "./components/NavBar/navBar.css"
-import NavBar from "./components/NavBar/NavBar"
+import Navbar from "./components/NavBar.jsx/NavBar.jsx";
+import "./components/NavBar.jsx/navBar.css"
 import "bootstrap/dist/css/bootstrap.css";
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
-
+import ItemListContainer from "./components/ItemListContainer.jsx/ItemListContainer";
 
 
 
 const App = () => {
     return (
         <div>
-            <NavBar/>
+            < Navbar/>
             <ItemListContainer />
             
         </div>

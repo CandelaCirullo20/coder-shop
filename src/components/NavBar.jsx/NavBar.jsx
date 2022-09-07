@@ -1,4 +1,4 @@
-import Cart from "../Cart/CartWidget";
+import Cart from "../CartWidget.jsx/CartWidget";
 function Navbar() {
     return (
         <div class="nav" >
