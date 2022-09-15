@@ -2,7 +2,7 @@ import "./App.css";
 import Navbar from "./components/NavBar.jsx/NavBar.jsx";
 import "./components/NavBar.jsx/navBar.css"
 import "bootstrap/dist/css/bootstrap.css";
-import ItemListContainer from "./components/ItemListContainer.jsx/ItemListContainer";
+import ItemDetailContainer from "./components/ItemDetailContainer.jsx/ItemDetailContainer";
 
 
 
@@ -10,7 +10,7 @@ const App = () => {
     return (
         <div>
             < Navbar/>
-            <ItemListContainer />
+            < ItemDetailContainer />
             
         </div>
     )
