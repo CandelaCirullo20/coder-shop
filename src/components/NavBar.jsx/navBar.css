@@ -4,11 +4,9 @@
     width: 100%;
   }
   
-  .logo{
+  .logotipo{
     text-shadow: 8px 6px 9px rgba(0,0,0,1);
     margin: 0;
+    color:black;
   }
   
-  .ul{
-    text-shadow: 8px 6px 16px rgba(0,0,0,1);
-  }
