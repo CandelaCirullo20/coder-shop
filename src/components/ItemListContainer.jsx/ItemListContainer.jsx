@@ -1,4 +1,4 @@
- import ItemCount from "../ItemCount.jsx/ItemCount";
+ 
  import ItemList from "../ItemList.jsx/ItemList";
  import React, { useEffect, useState } from "react";
  import Title from "../pages/title";
@@ -33,14 +33,11 @@
     }
     }, [categoriaId])
 
-    const onAdd = (quanity) => {
-        console.log(`Compraste ${quanity} unidades`);
-    }
+
 
     return (
         <>
         <Title greeting="Mundo de celulares"/>
-        < ItemCount initial={1} stock={7} onAdd={onAdd} />
         <ItemList data={data} />
         </>
         

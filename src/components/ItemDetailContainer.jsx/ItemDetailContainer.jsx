@@ -2,6 +2,7 @@ import { ItemDetail } from "../ItemDetail.jsx/ItemDetail";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
+
 const films = [
     { id: 1, image: "https://eringpro.com/wp-content/uploads/2021/12/iphone-13-pro-max-gold-select.png",category: "iphone" ,title: "iPhone 13 Pro Max" },
     { id: 2, image: "https://doto.vtexassets.com/arquivos/ids/188905/samsung-galaxy-s22-ultra-256gb-negro-dotomexico-ambas-vistas.jpg?v=637807378913100000",category: "samsung" , title: "Samsung Galaxy S22 Ultra"},
